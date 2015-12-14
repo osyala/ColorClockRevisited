@@ -1,0 +1,37 @@
+/*Style applies to everything*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body{
+	height: 100%
+}
+
+#hex{
+	color: white;
+	font: 64px/64px Raleway; 
+	height: 64px;
+	position: relative;
+	top: 50%;
+	margin-top: -32px;
+	text-align: center;
+}
+
+#hex:hover{
+	background-color: black
+}
+
+span {
+	display: block;
+	position: relative;
+	top: 60%;
+	margin: 0 auto;
+	height: 2px;
+	width: 0px;
+	background-color: #fff;
+}
